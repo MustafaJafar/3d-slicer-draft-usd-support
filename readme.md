@@ -23,7 +23,7 @@ The code here is a rough proof of concept for [DataHack Hackathon by lablab.me](
 3. Export and convert model, by Running the following code in 3d slicer's python shell.
     > USD file name is the same as the project folder name.
     ```python
-    import sys; project_dir = slicer.mrmlScene.GetRootDirectory().strip("/"); sys.path.append("{}/utils".format(project_dir))
+    import sys; sys.path.append("{}/utils".format(slicer.mrmlScene.GetRootDirectory().strip("/")))
 
     from export_usd import export_usd
     export_usd()
