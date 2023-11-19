@@ -31,6 +31,13 @@ The code here is a rough proof of concept for [DataHack Hackathon by lablab.me](
 
     ![run code in slicer](screencaptures/3dslicer_run_code.png)
 
+## Example Project
+Here, it's [Lungs](https://drive.google.com/file/d/13m36_3ba3O-YKJUyCEHFTVazc6fXfIeT/view?usp=drive_link)
+
+## Watch a Demo
+Here's me running the code
+
+[![3d slicer draft usd support](https://img.youtube.com/vi/xy2oOatX9oo/0.jpg)](https://www.youtube.com/watch?v=xy2oOatX9oo)
+
 ## Appreciation
-   Code credits [gltf2usd](https://github.com/kcoley/gltf2usd) by [kcoley](https://github.com/kcoley)
-   I only made it work in 3d slicer.
+   Code credits [gltf2usd](https://github.com/kcoley/gltf2usd) by [kcoley](https://github.com/kcoley), I only made it work in 3d slicer.
