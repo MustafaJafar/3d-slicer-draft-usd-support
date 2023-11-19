@@ -18,7 +18,7 @@ The code here is a rough proof of concept for [DataHack Hackathon by lablab.me](
 2. Install dependencies inside 3d slicer, by the following code.
     > this is done once.. 
     ```python
-    import subprocess; subprocess.run([sys.executable, '-m', 'pip', 'install', 'usd-core']); subprocess.run([sys.executable, '-m', 'pip', 'install', 'unicodedata'])
+    import sys; import subprocess; subprocess.run([sys.executable, '-m', 'pip', 'install', 'usd-core']); subprocess.run([sys.executable, '-m', 'pip', 'install', 'unicodedata'])
     ```
 3. Export and convert model, by Running the following code in 3d slicer's python shell.
     > USD file name is the same as the project folder name.
